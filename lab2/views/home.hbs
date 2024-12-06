@@ -1,0 +1,11 @@
+<h2>Latest Reviews</h2>
+<ul>
+  {{#each items}}
+    <li>
+      <a href="/item/{{id}}">
+        <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      </a>
+    </li>
+  {{/each}}
+</ul>
